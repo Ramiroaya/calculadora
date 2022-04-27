@@ -41,22 +41,22 @@ btnSumar.addEventListener("click", () => {
   let resultado = Number(sumar(primerNumero,segundoNumero));
   rotulo4.innerHTML = " La suma de los numeros es:"+ resultado;
   console.log("La suma de los numeros es:"+resultado);
-
+});
 btnRestar.addEventListener("click", () => {
   let resultado = restar(primerNumero,segundoNumero);
   rotulo4.innerHTML = "La resta de los numeros es:"+resultado;
   console.log("La resta de los numero es:"+resultado);
-
+});
 btnMultiplicar.addEventListener("click", () => {
   let resultado = multiplicar(primerNumero,segundoNumero);
   rotulo4.innerHTML = "La multiplicacion de los numeros es:"+resultado;
   console.log("La multiplicacion de los numero es:"+resultado);
-
+});
 btnDividir.addEventListener("click", () => {
   let resultado = dividir(primerNumero,segundoNumero);
   rotulo4.innerHTML = "La division de los numeros es:"+resultado;
   console.log(" La division de los numeros es:"+resultado);
-  
+}); 
 
  btnPotencia.addEventListener("click", () => {
    if(segundoNumero===0){
@@ -69,8 +69,4 @@ btnDividir.addEventListener("click", () => {
 });
 });
 });
-};
-});
-};
-});
-});
+
